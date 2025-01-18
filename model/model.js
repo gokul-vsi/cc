@@ -4,11 +4,11 @@ const mongoose = require('mongoose');
 const mongodbfield = new mongoose.Schema({
     myname:{
         type:String,
-        required:true
+        required:true,
     },
     myage:{
         type:String,
-        required:true
+        required:true,
     }
 })
 
