@@ -3,7 +3,7 @@ const app = express();
 const cors= require('cors');
 const mongoose = require('mongoose');
 const routesfile = require('./routes/routes')
-mongoose.connect("mongodb+srv://gokulnithya23:hS3@GLqNXm4NsLr@cluster0.8sjjl.mongodb.net/wbdata",{}).then(()=>{
+mongoose.connect("mongodb+srv://gokulnithya23:DJLZSePUgosyNVtq@cluster0.8sjjl.mongodb.net/wdata",{}).then(()=>{
     console.log("db connected");
     
 })
